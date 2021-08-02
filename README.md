@@ -25,11 +25,11 @@ The solved flux is then found in 'my_Output'
 
 ### Component programs
 
-* driver
+* driver. 
 Calls the solver
 
-* stdin
+* stdin. 
 Reads in the Input file and intializes the variable for the computation
 
-* diffusion_solver
+* diffusion_solver  
 Computes the flux
