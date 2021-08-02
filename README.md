@@ -30,3 +30,5 @@ The solved flux is then found in 'my_Output'
 * stdin --> Reads in the Input file and intializes the variable for the computation
 
 * diffusion_solver --> Computes the flux
+
+* stdout --> Writes out
