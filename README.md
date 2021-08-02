@@ -31,4 +31,4 @@ The solved flux is then found in 'my_Output'
 
 * diffusion_solver --> Computes the flux
 
-* stdout --> Writes out
+* stdout --> Writes out the flux in output file
