@@ -17,4 +17,19 @@ The input file needs to contain the following variables :
 A user only needs to call 'driver' to solve for the flux; all the other routines are called internally.
 
 ## Example run
-Given an input file called 'my_Input' and desired output file name 'my_Output'
+Given an input file called 'my_Input' and desired output file name 'my_Output', the solver is called by
+
+-- driver('my_Input','my_Output')
+
+The solved flux is then found in 'my_Output'
+
+### Component programs
+
+* driver
+Calls the solver
+
+* stdin
+Reads in the Input file and intializes the variable for the computation
+
+* diffusion_solver
+Computes the flux
