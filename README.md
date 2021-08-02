@@ -5,10 +5,10 @@
 
 * Bullet list
 
-* $n$, dimension of the system
-* $D$, matrix of diffusion coefficient
-* $\Sigma_a$, matrix of absorption cross section
-* $S$, matrix of source values
-* cell width, $\delta$
-* cell height, $\epsilon$
-* tolerance, $\xi$
+* n,  dimension of the system
+* D, matrix of diffusion coefficient
+* \Sigma, matrix of absorption cross section
+* S, matrix of source values
+* \delta, cell width
+* \epsilon, cell height
+* \xi, tolerance
